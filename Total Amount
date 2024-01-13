@@ -1,0 +1,25 @@
+import java.util.*;
+public class Amount
+{
+    public static void main(String[] args)
+    {
+        int a,b,c,d,e;
+        Scanner S=new Scanner(System.in);
+        System.out.println("Enter Denominator for 2000");
+        a=S.nextInt();
+        System.out.println("Enter Denominator for 500");
+        b=S.nextInt();
+        System.out.println("Enter Denominator for 200");
+        c=S.nextInt();
+        System.out.println("Enter Denominator for 100");
+        d=S.nextInt();
+        {
+            a=2000*a;
+            b=500*b;
+            c=200*c;
+            d=100*d;
+            e=a+b+c+d;
+        }
+        System.out.println("Total amount" +e);
+    }
+}
